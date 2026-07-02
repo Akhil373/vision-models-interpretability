@@ -7,6 +7,7 @@ This repository contains research paper related to computer vision model interpr
 ## Implementations
 
 ### 1. Attention Rollout in ViT
+* **Overview:** PyTorch implementation of Vision Transformer trained on CIFAR10 from scratch. Uses recursive attention rollout on the CLS token attention maps to generate superimposed heatmaps, and includes layer-wise predictions experiment using the CLS token.
 * **ref:**
   * [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
   * [Quantifying Attention Flow in Transformers](https://arxiv.org/abs/2005.00928)
@@ -14,6 +15,7 @@ This repository contains research paper related to computer vision model interpr
 * **Write-up:** ...short write-up in [./vit-attention-rollout/](./vit-attention-rollout/)
 
 ### 2. Concept Attention in DiT
+* **Overview:** Concept Attention implementation with stable-diffusion 3-medium (without T5 encoder). Modifies the MMATTN mechanism to perform custom cross-attention between concept embeddings (via CLIP-G/CLIP-L) and image embeddings to generate interpretability saliency maps. Includes a Gradio web UI.
 * **ref:**
   * [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
   * [Scalable Diffusion Models with Transformers](https://arxiv.org/abs/2212.09748)
