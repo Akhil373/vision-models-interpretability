@@ -2,7 +2,7 @@
 
 This is an implementation of Vision Transformer model in PyTorch, trained on [CIFAR10](https://cave.cs.toronto.edu/kriz/cifar.html) dataset from scratch.
 
-The implementation mostly follows the details from [ViT paper].
+The implementation mostly follows the details from [ViT paper](https://arxiv.org/abs/2010.11929).
 
 ### Training Details & Hyperparams
 * AdamW optimizer
